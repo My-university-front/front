@@ -4,7 +4,7 @@ import 'package:my_university/screens/registeration_screen.dart';
 import 'package:my_university/screens/welcome_screen.dart';
 
 import 'constants.dart';
-import 'screens/splash/splash_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
