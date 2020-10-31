@@ -16,17 +16,25 @@ class _SplashScreenState extends State<SplashScreen> {
   int currentPage = 0;
   List<Map<String, String>> splashData = [
     {
-      "text": "Welcome to Tokoto, Let’s shop!",
-      "image": "assets/images/splash_1.png"
+      "text": "به اپلیکیشن دانشگاه من خوش آمدید \n پلتفرم جامع ارائه خدمات دانشجویی ",
+      "image": "assets/images/screen1.png"
     },
+
     {
       "text":
-      "We help people conect with store \naround United State of America",
-      "image": "assets/images/splash_2.png"
+      "خرید و فروش کتاب و جزوات دانشگاهی",
+      "image": "assets/images/screen2.png"
     },
+
     {
-      "text": "We show the easy way to shop. \nJust stay at home with us",
-      "image": "assets/images/splash_3.png"
+      "text":
+      "سامانه هوشمند رزرو غذای دانشجو",
+      "image": "assets/images/screen3.png"
+    },
+
+    {
+      "text": "مشاوره و راهنمای سوالات دانشجو \n  و هر آنچه یک دانشجو به آن نیاز دارد",
+      "image": "assets/images/screen4.png"
     },
   ];
   @override
